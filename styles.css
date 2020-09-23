@@ -18,7 +18,7 @@ body {
 }
 .contenedor{
     background-color: #222;
-    width: 300px;
+    width: 350px;
     height: 500px;
     margin: auto;
     margin-top: 170px;
@@ -49,6 +49,20 @@ li:hover{
     background: #fff;
 }
 
+.two{
+    position: relative;
+    top: 17px;
+    left:30px;
+    width: 300px;
+    padding: 5px;
+    margin-top:24px ;
+    background-color: #000;
+    color: #a22;
+}
+
+.h2{
+    background-color: #a22;
+}
 
 @media (min-width: 1024px) {
     .contenedor {
@@ -70,6 +84,16 @@ li{
 }
 .a{
     padding-left: 900px;
+    line-height: 2;
+}
+.two{
+    margin-top: 3em;
+    margin-left: 2.5em;
+    width: 370px;
+    height: 100px;
+
+}
+.h2{
     line-height: 2;
 }
 }
